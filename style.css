@@ -1,0 +1,35 @@
+body{
+    background-image:url("background.jpg");
+}
+h1{
+    font-size: 25px !important;
+}
+button{
+    font-size: 25px !important; 
+}
+.btn-success:hover{
+    background-color: yellowgreen;
+}
+canvas{
+    animation-name: shadow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes shadow{
+    0%{
+        box-shadow: 3px 3px 100px rgb(5, 110, 231);
+    }
+    25%{
+        box-shadow: 3px 3px 100px rgb(151, 5, 248);
+    }
+    50%{
+        box-shadow: 3px 3px 100px rgb(7, 252, 101);
+    }
+    75%{
+        box-shadow: 3px 3px 100px gold;
+    }
+    100%{
+        box-shadow: 3px 3px 100px blanchedalmond;
+    }
+}
+
